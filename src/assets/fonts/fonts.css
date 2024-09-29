@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'AppleSDGothic-Thin';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoT.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-ExtraLight';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoUL.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-Light';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoL.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoR.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoM.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoSB.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-Bold';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoB.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoEB.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'AppleSDGothic-HiberBold';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url(./AppleSDGothicNeoH.woff) format("woff");
+}
+

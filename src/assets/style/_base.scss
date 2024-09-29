@@ -1,0 +1,179 @@
+@import url(/assets/fonts/fonts.css);
+
+:root {
+  /* Default */
+  font-size: 62.5%;
+  font-family: var(--font-p400);
+  line-height: var(--defulat-lineHeight);
+
+  /* Theme Color */
+  --color-primary:#00CC99;
+  --color-add-1:#006666;
+  --color-add-2:#00CC33;
+  --color-add-3:#007BCC;
+  --color-add-4:#00CCFE;
+  --color-add-5:#CCFFCC;
+  --color-point:#FF9900;
+
+  --color-gradient-line:linear-gradient(to right, #0f9 0%, #00ccfe 100%);
+  --color-gradient-button:linear-gradient(to right, #0c9 0%, #00ccfe 100%);
+
+  --color-black:#000000;
+  --color-gray-0: #666666;
+  --color-gray-1:#999999;
+  --color-gray-2:#CCCCCC;
+  --color-gray-3:#DDDDDD;
+  --color-gray-4:#F4F4F4;
+  --color-white:#FFFFFF;
+
+  /* font Option */
+  --font-p100:'AppleSDGothic-Thin','sans-serif';
+  --font-p200:'AppleSDGothic-ExtraLight','sans-serif';
+  --font-p300:'AppleSDGothic-Light','sans-serif';
+  --font-p400:'AppleSDGothic','sans-serif';
+  --font-p500:'AppleSDGothic-Medium','sans-serif';
+  --font-p600:'AppleSDGothic-SemiBold','sans-serif';
+  --font-p700:'AppleSDGothic-Bold','sans-serif';
+  --font-p800:'AppleSDGothic-ExtraBold','sans-serif';
+  --font-p900:'AppleSDGothic-HiberBold','sans-serif';
+
+  /* font Size */
+  --fontSize-60:6rem;
+  --fontSize-50:5rem;
+  --fontSize-48:4.8rem;
+  --fontSize-44:4.4rem;
+  --fontSize-40:4rem;
+  --fontSize-36:3.6rem;
+  --fontSize-34:3.4rem;
+  --fontSize-32:3.2rem;
+  --fontSize-30:3rem;
+  --fontSize-28:2.8rem;
+  --fontSize-26:2.6rem;
+
+  --defulat-lineHeight:1.333;
+
+  /* gap */
+  --gap-20: 20rem;
+  --gap-15: 15rem;
+  --gap-10: 10rem;
+  --gap-8: 8rem;
+  --gap-6: 6rem;
+  --gap-56: 5.6rem;
+  --gap-5: 5rem;
+  --gap-48: 4.8rem;
+  --gap-45: 4.5rem;
+  --gap-44: 4.4rem;
+  --gap-4: 4rem;
+  --gap-36: 3.6rem;
+  --gap-32: 3.2rem;
+  --gap-3: 3rem;
+  --gap-24: 2.4rem;
+  --gap-28: 2.8rem;
+  --gap-2: 2rem;
+  --gap-18: 1.8rem;
+  --gap-16: 1.6rem;
+  --gap-12: 1.2rem;
+  --gap-1: 1rem;
+  --inner-gap: 3.3rem;
+  --header-gap: 11.2rem;
+  --footer-gap: 24rem;
+}
+
+@media screen and (max-width: 1800px) {
+  :root{
+      font-size: calc(10 / (1800 / 100) * 1vw) ;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  :root{
+      font-size: calc(10 / (750 / 100) * 1vw) ;
+  }
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  position: relative;
+  word-break: keep-all;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  padding: var(--header-gap) var(--inner-gap) var(--gap-6);
+}
+
+a{
+  color:#000;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+img{
+  display: block;
+  max-width:100%;
+}
+
+img, video, canvas {
+  overflow: hidden;
+}
+
+ul,ol,li{
+  list-style: none;
+}
+
+button{
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a, button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--font-p400);
+  color: var(--color-black);
+}
+
+input {
+  font-family: var(--font-p400);
+  outline: none;
+  border: none;
+  padding: 0;
+  line-height: var(--defulat-lineHeight);
+}
+
+label {
+  font-family: var(--font-p400);
+}
+
+.title-box {
+  width: 100%;
+  position: relative;
+  padding-block: var(--gap-4) var(--gap-10);
+  &.small-margin {
+      padding-block: var(--gap-4) var(--gap-8);
+  }
+  h2 {
+      font-family: var(--font-p700);
+      font-size: var(--fontSize-50);
+      color: var(--color-black);
+  }
+  p {
+      padding-top: var(--gap-28);
+      font-size: var(--fontSize-36);
+      color: var(--color-gray-1);
+      &.ft-32 {
+          font-size: var(--fontSize-32);
+      }
+      &.big-margin {
+          padding-top: var(--gap-8);
+      }
+  }
+}
