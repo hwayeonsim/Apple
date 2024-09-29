@@ -1,5 +1,22 @@
 @import url(/assets/style/_base.scss);
 
-body {
-  background-color: yellow;
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 4.4rem;
+  font-size: 1.2rem;
+  .menu_list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    li {
+      padding: 0 0.8rem;
+    }
+  }
+  .menu_right {
+    display: flex;
+    align-items: center;
+  }
 }
